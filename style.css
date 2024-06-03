@@ -1,124 +1,3 @@
-/* Dark Theme Styles */
-
-/* Body and general styles */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
-    /* Set text color to white */
-    background-color: #212529;
-    /* Dark background color */
-    line-height: 1.6;
-}
-
-.navbar {
-    background-color: #343a40 !important;
-    /* Darken navbar background */
-    border-bottom: none;
-    /* Remove border */
-}
-
-.navbar-brand,
-.nav-link {
-    color: #fff !important;
-    /* Navbar text color */
-}
-
-.nav-link:hover {
-    color: #007bff !important;
-    /* Hover color */
-}
-
-/* Header styles */
-.jumbotron {
-    background: linear-gradient(to bottom, #343a40 0%, #212529 100%);
-    /* Dark gradient */
-    padding: 4rem 2rem;
-    margin-top: 56px;
-    /* Adjust for fixed navbar */
-    text-align: center;
-}
-
-.jumbotron h1 {
-    color: #007bff;
-    /* Primary accent color */
-}
-
-.jumbotron p {
-    color: #ccc;
-    /* Lighter text color */
-}
-
-/* Card styles */
-.card {
-    background-color: #343a40;
-    /* Dark card background */
-    border: none;
-    /* Remove border */
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    opacity: 0;
-    color: #fff;
-    /* Card text color */
-}
-
-.card-title {
-    color: #fff;
-    /* Card title color */
-}
-
-.card-text {
-    color: #ccc;
-    /* Lighter text color */
-}
-
-.btn-primary {
-    background-color: #007bff;
-    /* Primary button color */
-    border-color: #007bff;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-    /* Darker hover color */
-    border-color: #0056b3;
-}
-
-/* Social media buttons */
-.btn-social {
-    font-size: 1.25rem;
-    border-radius: 1.5rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-social:hover {
-    transform: translateY(-2px);
-}
-
-.btn-twitter {
-    background-color: #1da1f2;
-    /* Twitter color */
-}
-
-.btn-linkedin {
-    background-color: #2867b2;
-    /* LinkedIn color */
-}
-
-/* Scroll to Top button */
-#scrollToTopBtn {
-    background-color: #3b3f44;
-    /* Primary button color */
-    color: #fff;
-    transition: all 0.3s ease-in-out;
-}
-
-#scrollToTopBtn:hover {
-    background-color: #451717;
-    /* Darker hover color */
-    transform: scale(1.1);
-}
-
-/* Retro Pixel Game Style */
 
 /* Body and general styles */
 body {
@@ -129,26 +8,6 @@ body {
     background-color: #000;
     /* Black background */
     line-height: 1.6;
-}
-
-.container {
-    max-width: 800px;
-    /* Limit content width for retro feel */
-}
-
-/* Navbar styles */
-.navbar {
-    background-color: #000 !important;
-    /* Black navbar background */
-    border-bottom: none;
-    /* Remove border */
-}
-
-.navbar-brand,
-.nav-link {
-    color: #fff !important;
-    /* Navbar text color */
-    font-size: 16px;
 }
 
 /* Header styles */
@@ -174,6 +33,27 @@ body {
     color: #ccc;
     /* Lighter text color */
 }
+
+.container {
+    max-width: 800px;
+    /* Limit content width for retro feel */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000 !important;
+    /* Black navbar background */
+    border-bottom: none;
+    /* Remove border */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+    /* Navbar text color */
+    font-size: 16px;
+}
+
 
 /* Card styles */
 .card {
