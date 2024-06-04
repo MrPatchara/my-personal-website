@@ -27,20 +27,7 @@ scrollToTopBtn.addEventListener('click', function () {
     $('html, body').animate({ scrollTop: 0 }, 'slow');
 });
 
-// Contact Form Validation
-document.getElementById('contactForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var message = document.getElementById('message').value;
 
-    if (name === "" || email === "" || message === "") {
-        alert("Please fill out all fields.");
-    } else {
-        alert("Thank you for your message, " + name + "!");
-        document.getElementById('contactForm').reset();
-    }
-});
 
 // Animated Statistics Counter
 $(window).scroll(function () {
