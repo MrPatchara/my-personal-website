@@ -43,10 +43,4 @@ $(window).scroll(function () {
 });
 
 
-// Lightbox Gallery initialization
-$(document).on('click', '[data-lightbox]', function (event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
-
 
