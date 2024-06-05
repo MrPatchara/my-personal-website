@@ -110,4 +110,10 @@ body {
     transform: scale(1.1);
 }
 
+.carousel-control-prev-icon {
+    background-color: #4CAF50;
+}
 
+.carousel-control-next-icon {
+    background-color: #4CAF50;
+}
